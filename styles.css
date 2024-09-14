@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Pricedown';
+    src: url('C:/Users/ASUS/Desktop/Academy/fonts/pricedown bl.ttf');
+}
+@font-face {
+    font-family: 'Blackpast';
+    src: url('C:/Users/ASUS/Desktop/Academy/fonts/BlackpastDemo-vm2l9.ttf');
+}
+
+body {
+    font-family: 'Blackpast', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('C:/Users/ASUS/Desktop/Academy/images/Panda boy.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Pricedown', sans-serif;
+    font-size: 5rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.languages-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.languages-list li {
+    margin: 5px 0;
+}
+
+
+.section {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: transparent; 
+    color: #fff; 
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .section {
+        max-width: 900px;
+    }
+
+    header {
+        padding: 80px 0;
+    }
+
+    header h1 {
+        font-size: 6rem;
+    }
+}
+
+#contact {
+    display: block;
+    padding: 50px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6));
+    border-radius: 10px;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    background: transparent; 
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4d0f0f; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Blackpast', sans-serif; 
+}
+
+form button:hover {
+    background-color: #3a0c0c; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff; 
+    font-family: 'Blackpast', sans-serif;
+}
+
+a.download-cv, a.github-projects {
+    color: #4d0f0f; 
+    font-family: 'Blackpast', sans-serif; 
+}
+
+a.github-projects {
+    font-size: 1.2rem;
+}
+
+.section p, .section h2 {
+    background: transparent;
+}
+
+.cv-link {
+    color: #4d0f0f;
+}
+
+.project-link {
+    color: #4d0f0f;
+}
