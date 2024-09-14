@@ -1,4 +1,5 @@
-##Gabriel Zegar - Portfolio##
+##Gabriel Zegar - Portfolio#
+
 Welcome to the personal portfolio website of Gabriel Zegar. This website showcases my skills, projects, and background as a web developer and tech enthusiast.
 
 Overview
